@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -empty -exec ls -1a {} +
+find . -mindepth 1 -type f,d  -empty -exec ls -1 {} +
